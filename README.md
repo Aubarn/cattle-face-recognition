@@ -35,7 +35,6 @@ Two training objectives were tried for the Siamese model: contrastive loss and t
 | ResNet18 Siamese | contrastive | 0.913 | 85.7% |
 | ResNet18 Siamese, cosine similarity | triplet | 0.928 | 89.2% |
 
-[VERIFY: all numbers above against your logs or notebook outputs]
 
 Observations:
 - The Siamese structure clearly outperformed direct classification on this task.
@@ -44,7 +43,7 @@ Observations:
 
 ## Limitations and possible improvements
 
-- Preprocessing is minimal; stronger augmentation (angle, lighting, occlusion) may improve robustness. [VERIFY]
+- Preprocessing is minimal; stronger augmentation (angle, lighting, occlusion) may improve robustness.
 - Results come from a single validation split and I have not analyzed failure cases in detail yet.
 - Planned: examine which pairs are confused (extreme angles, occlusion) and test targeted fixes.
 
@@ -58,6 +57,3 @@ images/                        # result plots
 
 The dataset is not included. Please download it from the competition page.
 
-## How to run
-
-[Describe the real steps, e.g. open the notebook on Kaggle, attach the competition data, run all cells.]
