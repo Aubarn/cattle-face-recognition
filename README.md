@@ -1,13 +1,11 @@
-# cattle-face-recognition
+<img width="2224" height="1118" alt="image" src="https://github.com/user-attachments/assets/61dc61a5-96d8-4b77-9690-838356c2483b" /># cattle-face-recognition
 # Cow Face Verification (Kaggle Competition)
-
-> **DRAFT: delete this note after checking every item marked [VERIFY] against the actual notebook and code.**
+<img width="2230" height="1126" alt="image" src="https://github.com/user-attachments/assets/6e482a0c-4dfa-4fcd-8230-97ed9da0c3de" />
 
 An individual project for a Kaggle cow face verification competition. Given a pair of cow face images, the model predicts whether they show the same animal (1) or different animals (0). I worked alone and did all of the work: model selection, building and modifying the ResNet-based networks, writing the training script, generating predictions, submitting to Kaggle, and writing the report.
 
-- Kaggle competition: [add link]
-- Notebook: [add file name or Kaggle link]
-- Final Kaggle score / ranking: [add, or remove this line]
+- Kaggle competition: https://www.kaggle.com/competitions/cowface-verification-U
+- Final Kaggle score / ranking: 76/86
 
 ## Task
 
@@ -20,7 +18,7 @@ This is a **verification** task, not a classification task. `train/` contains co
 - Many identities, with an imbalanced number of photos per animal.
 - Because the identities in new pairs may not be seen during training, the model should compare features of two images rather than memorize identities.
 
-**Preprocessing:** resize to 224 × 224 (`transforms.Resize`) and convert to tensors scaled to [0, 1] (`ToTensor`). [VERIFY: whether normalization or augmentation was used]
+**Preprocessing:** resize to 224 × 224 (`transforms.Resize`) and convert to tensors scaled to [0, 1] (`ToTensor`). 
 
 ## Approaches
 
