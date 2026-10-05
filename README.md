@@ -1,7 +1,7 @@
 # Cow Face Verification (Kaggle Competition)
 <img width="2230" height="1126" alt="image" src="https://github.com/user-attachments/assets/6e482a0c-4dfa-4fcd-8230-97ed9da0c3de" />
 
-An individual project for a Kaggle cow face verification competition. Given a pair of cow face images, the model predicts whether they show the same animal (1) or different animals (0). I worked alone and did all of the work: model selection, building and modifying the ResNet-based networks, writing the training script, generating predictions, submitting to Kaggle, and writing the report.
+An individual project for a Kaggle cow face verification competition. Given a pair of cow face images, the model predicts whether they show the same animal (1) or different animals (0). The work include model selection, building and modifying the ResNet-based networks, writing the training script, generating predictions, and submitting to Kaggle.
 
 - Kaggle competition: https://www.kaggle.com/competitions/cowface-verification-U
 - Final Kaggle score / ranking: 76/86
