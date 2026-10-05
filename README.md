@@ -23,9 +23,8 @@ This is a **verification** task, not a classification task. `train/` contains co
 
 **A. Baseline: ResNet18 direct classification.** The two images are combined (concatenated or subtracted) and fed to a ResNet18 classifier for binary prediction. It is simple, but it generalizes poorly to new image combinations.
 
-**B. Siamese / embedding model.** A shared ResNet18 extracts a 512-dimensional embedding from each image, and the similarity between the two embeddings (cosine similarity or L2 distance) is used for the decision. This fits verification better, since the distances for same-cow and different-cow pairs separate more clearly. [VERIFY: which distance each experiment actually used]
-
-Two training objectives were tried for the Siamese model: contrastive loss and triplet loss with cosine similarity. [VERIFY: both were really implemented and run]
+**B. Siamese / embedding model.** A shared ResNet18 extracts a 512-dimensional embedding from each image, and the similarity between the two embeddings (cosine similarity or L2 distance) is used for the decision. This fits verification better, since the distances for same-cow and different-cow pairs separate more clearly. 
+Two training objectives were tried for the Siamese model: contrastive loss and triplet loss with cosine similarity. 
 
 ## Results (validation set)
 
