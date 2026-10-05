@@ -1,4 +1,3 @@
-<img width="2224" height="1118" alt="image" src="https://github.com/user-attachments/assets/61dc61a5-96d8-4b77-9690-838356c2483b" /># cattle-face-recognition
 # Cow Face Verification (Kaggle Competition)
 <img width="2230" height="1126" alt="image" src="https://github.com/user-attachments/assets/6e482a0c-4dfa-4fcd-8230-97ed9da0c3de" />
 
